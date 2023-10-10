@@ -76,12 +76,24 @@ header .menu__img {
           justify-content: center;
 }
 .principal__contenido {
-  background-color: #040f0f;
-  opacity: 0.6;
+  background: #222222;
+  background: linear-gradient(-195deg, rgba(34, 34, 34, 0.6) 35%, rgba(34, 34, 34, 0.6) 100%);
   width: 100%;
-  padding: 55px;
+  padding: 30px;
   position: absolute;
   bottom: 267px;
+}
+.principal__contenido p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #D8A800;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 31px;
+  color: #FFF;
+}
+.principal__contenido strong {
+  font-size: 35px;
 }
 .principal__contenido h2 {
   font-size: 32px;
@@ -89,6 +101,75 @@ header .menu__img {
   color: #ffff;
   border-bottom: 2px solid #1A3A58;
   margin: 10px;
+}
+.contentindex {
+  text-align: center;
+}
+.contentindex__txt1 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 23px;
+  border: 2px solid #D8A800;
+  border-radius: 30px;
+  margin: 30px;
+  padding: 10px;
+  line-height: 25px;
+}
+.contentindex strong {
+  font-size: 30px;
+}
+.objetivos {
+  max-width: 100%;
+  margin: 0 auto;
+  background-image: url(/images/mobile/img1.PNG);
+  opacity: 0.9;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.objetivos__contenido {
+  background: #222222;
+  background: linear-gradient(-195deg, rgba(34, 34, 34, 0.6) 35%, rgba(34, 34, 34, 0.6) 100%);
+  width: 100%;
+  padding: 30px;
+  bottom: 267px;
+}
+.objetivos__contenido p:nth-child(1) {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #D8A800;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  line-height: 25px;
+  color: #FFF;
+}
+.objetivos__contenido p:nth-child(2) {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  line-height: 10px;
+  color: #FFF;
+}
+.objetivos__contenido strong {
+  font-size: 30px;
 }
 footer {
   background-color: #1A3A58;
@@ -144,7 +225,6 @@ footer .footer__box__body-ayuda {
   position: relative;
   top: 25px;
   font-family: 'Inter', sans-serif;
-  font-size: 1.4rem;
   -webkit-box-align: left;
       -ms-flex-align: left;
           align-items: left;

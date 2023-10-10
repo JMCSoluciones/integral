@@ -49,13 +49,25 @@ header {
 	justify-content: center;
 
   &__contenido {
-		background-color: rgb(4, 15, 15);
-		opacity: .6;
+		background: rgb(34,34,34);
+    background: linear-gradient(-195deg, rgba(34,34,34,0.6) 35%, rgba(34,34,34,0.6) 100%);
 		width: 100%;
-		padding: 55px;
+		padding: 30px;
     position: absolute;
     bottom: 267px;
 
+    p {
+      margin-top: 0;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #D8A800;
+      padding: 10px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 31px;
+      color:#FFF;
+    }
+    strong{
+      font-size: 35px;
+    }
 		h2 {
 			font-size: 32px;
 			font-weight: 500;
@@ -65,6 +77,69 @@ header {
 		}
 	}
 }
+.contentindex{
+  text-align: center;
+   &__txt1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 23px;
+    border: 2px solid #D8A800;
+    border-radius: 30px;
+    margin: 30px;
+    padding: 10px;
+    line-height: 25px;
+   } 
+   strong{
+    font-size: 30px;
+  }
+}
+.objetivos{
+  max-width: 100%;
+  margin: 0 auto;
+  background-image: url(/images/mobile/img1.PNG);
+	opacity: .9;
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	width: 100vw;
+	height: 320px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+  &__contenido {
+		background: rgb(34,34,34);
+    background: linear-gradient(-195deg, rgba(34,34,34,0.6) 35%, rgba(34,34,34,0.6) 100%);
+		width: 100%;
+		padding: 30px;
+    bottom: 267px;
+    p:nth-child(1){
+      margin-top: 0;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #D8A800;
+      padding: 10px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 25px;
+      line-height: 25px;
+      color:#FFF;
+    }
+    p:nth-child(2){
+      margin-top: 0;
+      margin-bottom: 1rem;
+      padding: 10px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 25px;
+      line-height: 10px;
+      color:#FFF;
+    }
+    strong{
+      font-size: 30px;
+    }
+  }
+}
+
 footer{
   background-color: #1A3A58;
   color: #ffff;
@@ -74,7 +149,7 @@ footer{
   justify-content: center;
   align-items: center;
   .footer__box{
-    
+
     &__body{
       display:grid;
       grid-template-columns: 1fr 1fr;
@@ -97,7 +172,6 @@ footer{
         position: relative;
         top: 25px;
         font-family: 'Inter', sans-serif;
-        font-size: @font-size-mg; 
         align-items: left;
         a{
           justify-content: center;
