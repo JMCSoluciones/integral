@@ -345,6 +345,202 @@ header .menu__img {
 .implementacion strong {
   font-size: 30px;
 }
+.qsomos {
+  max-width: 100%;
+  margin: 0 auto;
+  background-image: url(/images/mobile/qsomos.jpg);
+  opacity: 0.9;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.qsomos__title {
+  background: #222222;
+  background: linear-gradient(-195deg, rgba(34, 34, 34, 0.6) 35%, rgba(34, 34, 34, 0.6) 100%);
+  width: 100%;
+  padding: 27px;
+  position: absolute;
+  bottom: 370px;
+  margin-top: auto;
+}
+.qsomos P {
+  color: #FFF;
+  font-size: 27px;
+  border-left: 2px solid #D8A800;
+}
+.qsomos strong {
+  font-size: 50px;
+  line-height: 30px;
+}
+.one {
+  margin: 25px 0px 25px;
+  width: 300px;
+  height: 120px;
+  padding: 10px;
+  border-radius: 45px 0px 0px 45px;
+  background: #0c1d2e;
+  background: linear-gradient(-195deg, rgba(12, 29, 46, 0.5) 35%, rgba(12, 29, 46, 0.5) 51%);
+  color: #FFF;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: right;
+}
+.one__contenido {
+  line-height: 15px;
+}
+.one__contenido p {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+}
+.one strong {
+  font-size: 16px;
+}
+.two {
+  margin: 25px 0px 25px;
+  width: 300px;
+  height: 120px;
+  padding: 10px;
+  border-radius: 0px 45px 45px 0px;
+  background: #d8a800;
+  background: linear-gradient(-195deg, rgba(216, 168, 0, 0.59427521) 35%, rgba(216, 168, 0, 0.49623599) 51%);
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.two__contenido {
+  line-height: 15px;
+}
+.two__contenido p {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+}
+.two strong {
+  font-size: 16px;
+}
+.three {
+  margin: 12px 0px 25px;
+  width: 328px;
+  height: 131px;
+  padding: 10px;
+  border-radius: 50px 0px 0px 50px;
+  background: #0c1d2e;
+  background: linear-gradient(-195deg, rgba(12, 29, 46, 0.5) 35%, rgba(12, 29, 46, 0.5) 51%);
+  color: #FFF;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  float: right;
+}
+.three__contenido {
+  line-height: 15px;
+}
+.three__contenido p {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+}
+.three strong {
+  font-size: 15px;
+}
+.four {
+  margin: 25px 0px 25px;
+  width: 300px;
+  height: 120px;
+  padding: 10px;
+  border-radius: 0px 45px 45px 0px;
+  text-align: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #d8a800;
+  background: linear-gradient(-195deg, rgba(216, 168, 0, 0.59427521) 35%, rgba(216, 168, 0, 0.49623599) 51%);
+}
+.four__contenido {
+  line-height: 15px;
+}
+.four__contenido p {
+  font-family: 'Inter', sans-serif;
+  font-size: 12px;
+}
+.four strong {
+  font-size: 16px;
+}
+.qcontacto {
+  max-width: 100%;
+  margin: 0 auto;
+  background-image: url(/images/mobile/index.png);
+  opacity: 0.9;
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 257px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.qcontacto__title {
+  background: #222222;
+  background: linear-gradient(-195deg, rgba(34, 34, 34, 0.6) 35%, rgba(34, 34, 34, 0.6) 100%);
+  color: #FFF;
+  width: 100%;
+  padding: 30px;
+  position: absolute;
+  bottom: 330px;
+  font-size: 30px;
+}
 footer {
   background-color: #1A3A58;
   color: #ffff;
