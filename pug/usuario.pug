@@ -1,0 +1,20 @@
+extend ../components/template.pug
+block content 
+    .usuario
+        section.user
+            .user__nombre
+                img(src="images/iconos/user.svg", alt="")
+                p Nombre de Usuario
+    .caja
+        section.citas 
+            .citas__principal
+                img(src="images/iconos/calendario.svg", alt="")
+                p Proximas #[br] Citas
+        section.bitacora 
+            .bitacora__principal
+                img(src="images/iconos/book.svg", alt="")
+                p Bitacora de #[br]servicio
+        section.descargas   
+            .descargas__principal 
+                img(src="images/iconos/descargas.svg", alt="")
+                p Descargas 

@@ -1,0 +1,19 @@
+extend ../components/template.pug
+block content 
+    .login
+        img(src="/images/iconos/login.svg", alt="")
+        .login__title.title  #[strong Iniciar sesión]
+        form.login__formLogin
+            .login__formLogin__box.box
+                .form-group
+                    label(for='exampleInputEmail1') #[strong Email address]
+                    .icono 
+                        img(src="/images/iconos/maillogin.svg", alt="")
+                        input#exampleInputEmail1.form-control(type='email' aria-describedby='emailHelp' placeholder='Enter email')
+                .form-group
+                    label(for='exampleInputPassword1') #[strong Password]
+                    .icono 
+                        img(src="images/iconos/password.svg", alt="")
+                        input#exampleInputPassword1.form-control(type='password' placeholder='Password')
+                .form-group.form-check
+                        button.btn.btn-warning(type="submit")  Ingresar
