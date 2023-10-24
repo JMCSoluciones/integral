@@ -1,0 +1,20 @@
+extend ../components/template.pug
+block content 
+  .titulo__citasU 
+        p #[strong Proximas Citas]
+  .buscar__citasU 
+        <label for="buscador">Buscar:</label>
+         <input type="search" id="buscador" name="q" placeholder="Escribe tu busqueda aqui">
+         <input type="submit" value="Buscar">
+  .proximascitasU
+    .inicio
+     form(action='')
+        label(for='calendario')
+            span Fecha Inicio
+            input#calendario(type='date' name='calendario')
+    .final
+      form(action='')
+        label(for='calendario')
+            span Fecha Final
+            input#calendario(type='date' name='calendario')
+        input(type="submit")

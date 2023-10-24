@@ -36,27 +36,30 @@
         </section>
       </nav>
     </header>
-    <div class="login"><img src="/images/iconos/login.svg" alt=""/>
-      <div class="login__title title"> <strong>Iniciar sesión</strong></div>
-      <form class="login__formLogin">
-        <div class="login__formLogin__box box">
-          <div class="form-group">
-            <label for="exampleInputEmail1"><strong>Usuario</strong></label>
-            <div class="icono"> <img src="/images/iconos/maillogin.svg" alt=""/>
-              <input class="form-control" id="exampleInputEmail1" type="email" aria-describedby="emailHelp" placeholder="Enter email"/>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="exampleInputPassword1"><strong>Contraseña</strong></label>
-            <div class="icono"> <img src="images/iconos/password.svg" alt=""/>
-              <input class="form-control" id="exampleInputPassword1" type="password" placeholder="Password"/>
-            </div>
-          </div>
-          <div class="form-group form-check">
-            <button class="btn btn-warning" type="submit"> Ingresar</button>
-          </div>
-        </div>
-      </form>
+    <div class="titulo__citasU"> 
+      <p><strong>Proximas Citas</strong></p>
+    </div>
+    <div class="buscar__citasU">
+       <label for="buscador">Buscar:</label>
+<input type="search" id="buscador" name="q" placeholder="Escribe tu busqueda aqui">
+<input type="submit" value="Buscar">
+    </div>
+    <div class="proximascitasU">
+      <div class="inicio">
+        <form action="">
+          <label for="calendario"><span>Fecha Inicio</span>
+            <input id="calendario" type="date" name="calendario"/>
+          </label>
+        </form>
+      </div>
+      <div class="final">
+        <form action="">
+          <label for="calendario"><span>Fecha Final</span>
+            <input id="calendario" type="date" name="calendario"/>
+          </label>
+          <input type="submit"/>
+        </form>
+      </div>
     </div>
     <footer>
       <div class="footer__box">
