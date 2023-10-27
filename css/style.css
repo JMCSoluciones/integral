@@ -959,3 +959,39 @@ footer .footer__box__body-socialmedia {
           flex-direction: column;
   text-align: right;
 }
+footer .footer__foot {
+  background-color: #1A3A58;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #fff;
+  height: 81px;
+  margin: 0;
+}
+footer .footer__foot p {
+  margin: 0;
+}
+footer .footer__foot .divisor {
+  display: none;
+}
+footer .footer__foot .rights p {
+  font-size: 12px;
+  text-align: center;
+  margin: 0;
+  border-bottom: 1px solid #fff;
+}
+footer .footer__foot .link__jmc a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+}

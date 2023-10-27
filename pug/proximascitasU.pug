@@ -1,11 +1,11 @@
-extend ../components/template.pug
+extend ../components/template-usuario.pug
 block content 
   .titulo__citasU 
         p #[strong Proximas Citas]
   .buscar__citasU 
-        <label for="buscador">Buscar:</label>
-         <input type="search" id="buscador" name="q" placeholder="Escribe tu busqueda aqui">
-         <input type="submit" value="Buscar">
+        label(for='buscador') 
+        input(type='text' placeholder='Search..' name='search')
+        button(type='submit') Buscar
   .proximascitasU
     .inicio
      form(action='')
