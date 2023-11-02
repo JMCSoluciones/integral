@@ -40,26 +40,48 @@
         </section>
       </nav>
     </header>
-    <div class="clientes">
-      <section class="cliente">
-        <div class="cliente__nombre"><img src="images/iconos/user.svg" alt=""/>
-          <p>Nombre de Cliente</p>
-        </div>
-      </section>
+    <div class="titulo__bitacoraadmin">
+      <p><strong>Bitacora de Servicios</strong></p>
     </div>
-    <div class="caja">
-      <section class="listac"> 
-        <div class="lista__principal"> <img src="images/iconos/login.svg" alt=""/><a href="listaclientes.html">Lista <br/> Clientes</a></div>
-      </section>
-      <section class="citasc"> 
-        <div class="citas__principal"><img src="images/iconos/calendario.svg" alt=""/><a href="pcitasadmin.html">Proximas <br/> Citas</a></div>
-      </section>
-      <section class="bitacorac"> 
-        <div class="bitacora__principal"><img src="images/iconos/book.svg" alt=""/><a href="bitacorasadmin.html">Bitacora de <br/>servicio</a></div>
-      </section>
-      <section class="descargasc"> 
-        <div class="descargas__principal"> <img src="images/iconos/descargas.svg" alt=""/><a href="descargasadmin.html">Descargas </a></div>
-      </section>
+    <div class="buscar__bitacoraU"> 
+      <label for="buscador"> </label>
+      <input type="text" placeholder="Search.." name="search"/>
+      <button type="submit">Buscar</button>
+    </div>
+    <table class="table table-striped table-hover">
+      <thead> 
+        <tr>                 
+          <th>ID</th>
+          <th>Fecha</th>
+          <th>Detalles</th>
+          <th>Acciones</th>
+        </tr>
+      </thead>
+      <tbody> 
+        <tr> 
+          <td>001</td>
+          <td>10/05/2020</td>
+          <td><a href="#verzualizarProductoModal" data-toggle="modal">ver más...  </a></td>
+          <td><a class="edit" href="#editProductoModal" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a><a class="delete" href="#deleteProductoModal" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a></td>
+        </tr>
+        <tr> 
+          <td>002</td>
+          <td>08/02/2019</td>
+          <td> <a href="#verzualizarProductoModal" data-toggle="modal">ver más... </a></td>
+          <td><a class="edit" href="#editProductoModal" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a><a class="delete" href="#deleteProductoModal" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a></td>
+        </tr>
+      </tbody>
+    </table>
+    <div class="content__CtrlProductos__tabs__item__footer">
+      <nav aria-label="...">
+        <ul class="pagination">
+          <li class="page-item disabled"><a class="page-link">Previous</a></li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active" aria-current="page"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+      </nav>
     </div>
     <footer> 
       <div class="footer__foot"> 

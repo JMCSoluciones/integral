@@ -9,7 +9,7 @@ block content
     table.table.table-striped.table-hover
                     thead 
                         tr                  
-                            th id
+                            th ID
                             th Fecha
                             th Detalles 
                     tbody 
@@ -17,9 +17,22 @@ block content
                             td 001
                             td 08/18/2023
                             td 
-                                a(href="#verzualizarProductoModal" data-toggle='modal') detalles... 
+                                a(href="#verzualizarProductoModal" data-toggle='modal') ver mas... 
                         tr 
                             td 002
                             td 02/30/2023 
                             td 
-                                a(href="#verzualizarProductoModal" data-toggle='modal') detalles... 
+                                a(href="#verzualizarProductoModal" data-toggle='modal') ver mas... 
+    .content__CtrlProductos__tabs__item__footer
+        nav(aria-label='...')
+             ul.pagination
+                li.page-item.disabled
+                    a.page-link Previous
+                li.page-item
+                    a.page-link(href='#') 1
+                li.page-item.active(aria-current='page')
+                    a.page-link(href='#') 2
+                li.page-item
+                    a.page-link(href='#') 3
+                li.page-item
+                    a.page-link(href='#') Next

@@ -883,6 +883,19 @@ table.table td a {
   outline: none !important;
   text-decoration: none;
 }
+.clientes {
+  margin: 30px;
+}
+.clientes .cliente {
+  margin-top: 85px;
+  text-align: center;
+  font-size: 20px;
+  border-bottom: 2px solid #D8A800;
+}
+.clientes .cliente img {
+  width: 45px;
+  height: 45px;
+}
 footer {
   background-color: #1A3A58;
   color: #ffff;

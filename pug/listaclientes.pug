@@ -1,2 +1,49 @@
 extend ../components/template-admin.pug
 block content 
+    .titulo__listaclientes
+        p #[strong Lista de Clientes]
+    .buscar__listacliente
+        label(for='buscador') 
+        input(type='text' placeholder='Search..' name='search')
+        button(type='submit') Buscar
+    table.table.table-striped.table-hover
+      thead 
+        tr                  
+            th ID
+            th Nombre
+            th Detalles
+            th Acciones
+      tbody 
+        tr 
+            td 001
+            td cliente
+            td
+                a(href="#verzualizarProductoModal" data-toggle='modal') ver más...  
+            td
+                a.edit(href="#editProductoModal" data-toggle='modal')
+                    i.material-icons(data-toggle='tooltip' title='Edit') &#xE254;
+                a.delete(href='#deleteProductoModal' data-toggle='modal')
+                    i.material-icons(data-toggle='tooltip' title='Delete') &#xE872;
+        tr 
+            td 002
+            td cliente
+            td 
+                a(href="#verzualizarProductoModal" data-toggle='modal') ver más... 
+            td
+                a.edit(href="#editProductoModal" data-toggle='modal')
+                    i.material-icons(data-toggle='tooltip' title='Edit') &#xE254;
+                a.delete(href='#deleteProductoModal' data-toggle='modal')
+                    i.material-icons(data-toggle='tooltip' title='Delete') &#xE872;
+    .content__CtrlProductos__tabs__item__footer
+        nav(aria-label='...')
+             ul.pagination
+                li.page-item.disabled
+                    a.page-link Previous
+                li.page-item
+                    a.page-link(href='#') 1
+                li.page-item.active(aria-current='page')
+                    a.page-link(href='#') 2
+                li.page-item
+                    a.page-link(href='#') 3
+                li.page-item
+                    a.page-link(href='#') Next

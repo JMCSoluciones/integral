@@ -1,2 +1,24 @@
 extend ../components/template-admin.pug
 block content 
+    .clientes
+        section.cliente
+            .cliente__nombre
+                img(src="images/iconos/user.svg", alt="")
+                p Nombre de Cliente
+    .caja
+        section.listac 
+            .lista__principal 
+                img(src="images/iconos/login.svg", alt="")
+                a(href='listaclientes.html') Lista #[br] Clientes
+        section.citasc 
+            .citas__principal
+                img(src="images/iconos/calendario.svg", alt="")
+                a(href='pcitasadmin.html') Proximas #[br] Citas
+        section.bitacorac 
+            .bitacora__principal
+                img(src="images/iconos/book.svg", alt="")
+                a(href='bitacorasadmin.html') Bitacora de #[br]servicio
+        section.descargasc  
+            .descargas__principal 
+                img(src="images/iconos/descargas.svg", alt="")
+                a(href='descargasadmin.html') Descargas 
